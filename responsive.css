@@ -1,0 +1,75 @@
+/* Untuk Tablets */
+
+@media all and (max-width: 1000px) {
+    .beranda h1 {
+        font-size: 32px;
+    }
+
+    .desc h3 {
+        font-size: 18px;
+    }
+
+    .membership {
+        font-size: 35px;
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+
+    .card li {
+        font-size: 18px;
+    }
+
+    .footer-logo {
+        font: size 40px;
+    }
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .beranda h1 {
+        font-size: 25px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .desc h3 {
+        font-size: 10px;
+    }
+
+    .btn-join {
+        width: 100%;
+    }
+
+    .beranda {
+        text-align: left;
+    }
+
+    .membership {
+        font-size: 25px;
+    }
+
+    .card h3 {
+        font-size: 12px;
+    }
+
+    .card li {
+        font-size: 15px;
+    }
+
+    .footer-logo {
+        font: size 40px;
+    }
+}
